@@ -41,7 +41,7 @@ echo Video file path: !video_filepath!
 
 ffmpeg -i "!video_file!" -i "!audio_file!" -vcodec copy -acodec copy -map 0:0 -map 1:0 "!video_filename!_combined!video_fileextension!"
 
-echo Done. Batch by C.Iorga, inspired by Wand Chenwei 
+echo Done. Batch by C.Iorga, inspired by Wang Chenwei 
 
 ENDLOCAL
 ECHO ON
